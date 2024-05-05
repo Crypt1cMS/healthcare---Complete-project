@@ -11,7 +11,7 @@ function Nav() {
         <nav>
 
             <div className="logo">
-                <img src={Logo} alt="Trafalgar Logo" />
+                <img src={Logo} alt="Trafalgar Logo" draggable="false" />
             </div>
 
             <ul className='nav-items'>
