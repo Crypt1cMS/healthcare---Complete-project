@@ -52,6 +52,10 @@
     align-items: center;
     gap: 2rem;
   } 
+  
+  .description-container-left {
+    width: 100%;
+  }
 
   .description-text {
     display: flex;
