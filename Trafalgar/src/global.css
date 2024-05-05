@@ -1,0 +1,45 @@
+:root {
+    --h1-font-size: clamp(2rem, 1.5vw + 1.8rem, 3.5rem);
+    --p-color: rgb(107, 107, 107);
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+main {
+  margin: 0 10%;
+}
+
+.wrapper-main {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+p {
+    font-size: 1.125rem;
+    color: var(--p-color);
+}
+
+.btn-primary {
+    width: 175px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background: rgba(69, 143, 246, 1);
+    color: white;
+    font-size: var(--p-color);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05)
+}
