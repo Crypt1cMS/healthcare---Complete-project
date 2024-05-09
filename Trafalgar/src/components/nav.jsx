@@ -1,7 +1,5 @@
 import './nav.css'
 import '../global.css'
-
-
 import Logo from '../assets/logo.png'
 
 function Nav() {

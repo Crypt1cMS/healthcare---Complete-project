@@ -34,7 +34,7 @@ p {
 }
 
 .btn-primary {
-    width: 175px;
+    width: 190px;
     height: 45px;
     border: none;
     outline: none;
@@ -47,5 +47,24 @@ p {
 }
 
 .btn-primary:hover {
+    transform: scale(1.05)
+}
+
+.secondary-btn {
+    width: 190px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    border: 2px solid rgba(69, 143, 246, 1);
+    background: transparent;
+    color: rgba(69, 143, 246, 1);
+    font-size: var(--p-color);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.secondary-btn:hover {
     transform: scale(1.05)
 }

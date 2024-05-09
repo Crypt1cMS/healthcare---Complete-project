@@ -63,6 +63,10 @@ function Services() {
             <img id='bg-services' src={Bgelement} alt="Backgorund element" draggable='false' />
             <img id='bg-services-dots' src={Dotlines} alt="Background element" draggable='false' />
 
+            <div className="more-services">
+              <button className='secondary-btn' type='submit'>Lear More</button>
+            </div>
+
         </section>
     )
 }
