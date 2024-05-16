@@ -1,18 +1,18 @@
 import PropTypes from 'prop-types';
-import './card-left.css';
+import './card-right.css';
 import '../global.css'
 
-function CardLeft({ image, cardHeader, cardDescription }) {
+function CardRight({ image, cardHeader, cardDescription }) {
 
     return (
         <>
-            <div className="left-card-container">
+            <div className="right-card-container">
 
                 <div className="card-image-content">
                     <img src={image} alt="Ilustration" draggable="false" />
                 </div>
 
-                <div className="card-text-content">
+                <div className="right-card-text-content">
 
                     <div className="content-wrapper">
                         <h2>{cardHeader}</h2>
@@ -29,10 +29,10 @@ function CardLeft({ image, cardHeader, cardDescription }) {
     )
 }
 
-CardLeft.propTypes = {
+CardRight.propTypes = {
     image: PropTypes.string.isRequired,
     cardHeader: PropTypes.string.isRequired, 
     cardDescription: PropTypes.string.isRequired,
 };
 
-export default CardLeft
+export default CardRight

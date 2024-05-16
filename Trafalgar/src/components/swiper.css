@@ -1,0 +1,116 @@
+.swiper-main-container {
+    width: 88%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 50px auto;
+    position: relative;
+
+}
+
+.swiper-container {
+    width: 90%;
+    min-height: 350px;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top right, #5A98F2, #67C3F3);
+    margin: 0 auto;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 30px;
+}
+
+.swiper-container h2 {
+    font-size: var(--h2-font-size);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.swiper-container hr {
+    outline: none;
+    width: 80px;
+    height: 2px;
+    border: none;
+    background: white;
+}
+
+.swiper-content {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 0 0;
+    gap: 25px;
+}
+
+.swiper-profile {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.swiper-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.swiper-profile .profile-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.swiper-profile h3 {
+    font-size: var(--h3-font-size);
+    color: white;
+}
+
+.swiper-profile p {
+    color: white;
+}
+
+.swiper-statement {
+    max-width: 45%;
+}
+
+.swiper-statement p {
+    color: white;
+}
+
+#dots1 {
+    position: absolute;
+    z-index: 1;
+    right: 5px;
+    top: -50px;
+}
+
+#dots2 {
+    position: absolute;
+    left: -10px;
+    bottom: 0;
+}
+
+@media (max-width: 940px) {
+    .swiper-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .swiper-profile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .swiper-statement {
+        max-width: 90%;
+    }
+}
