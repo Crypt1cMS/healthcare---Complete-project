@@ -7,6 +7,8 @@ import CardRight from './components/card-right'
 import cardleftimg from './assets/cardLeft.png'
 import cardrightimg from './assets/Card-right1.png'
 import SwiperComponent from './components/swiper'
+import Articles from './components/article'
+import Footer from './components/footer'
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
                   cardDescription='Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely'
                   />
                     <SwiperComponent />
+                      <Articles />
+                        <Footer />
 
         </div>
       </main>

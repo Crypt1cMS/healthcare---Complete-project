@@ -1,7 +1,8 @@
 :root {
     --h1-font-size: clamp(2rem, 1.5vw + 1.8rem, 3.5rem);
     --h2-font-size: clamp(1.5rem, 1vw + 1rem, 2.5rem);
-    --h3-font-size: clamp(1.1rem, 1vw + .5rem, 2rem);
+    --h3-font-size: clamp(1.2rem, 1vw + .5rem, 2rem);
+    --h4-font-size: clamp(1.1rem, 1vw + .1rem, 1.5rem);
     --p-color: rgb(107, 107, 107);
 }
 

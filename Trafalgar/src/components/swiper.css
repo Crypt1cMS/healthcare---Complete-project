@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px auto 50px auto;
+    margin: 150px auto 125px auto;
     position: relative;
 
 }
@@ -64,7 +64,7 @@
 .swiper-profile .profile-text {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 2px;
 }
 
 .swiper-profile h3 {
