@@ -5,6 +5,7 @@
     align-items: center;
     width: 100%;
     padding: 30px 0;
+    position: relative;
 }
 
 .services-text {
@@ -80,7 +81,8 @@
 .services #bg-services-dots {
     position: absolute;
     z-index: 0;
-    right: -30px;
+    right: 0px;
+    bottom: 500px;
 }
 
 .more-services {

@@ -33,9 +33,9 @@ function App() {
                   />
                     <SwiperComponent />
                       <Articles />
-                        <Footer />
-
         </div>
+
+        <Footer />
       </main>
     </>
   )
